@@ -1,5 +1,5 @@
 <html>
-  <link rel="stylesheet" href="css"
+   <meta charset="UTF-8">
   import { type ReactNode } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ArrowDownRight, ArrowRight, ArrowUpRight, CalendarDays } from 'lucide-react';
@@ -31,7 +31,7 @@ function Home() {
           <a className="nav-cta" href="#first-step">Find your way in <ArrowUpRight size={14} aria-hidden="true" /></a>
         </nav>
       </header>
-
+    
       <section className="hero" id="home" aria-labelledby="hero-title">
         <div className="hero-inner">
           <div className="hero-copy">
@@ -213,6 +213,6 @@ function App() {
     </QueryClientProvider>
   );
 }
-
+  <link rel="stylesheet" href="./css/style.css">
 export default App;
 </html>
