@@ -1,4 +1,5 @@
-import { type ReactNode } from 'react';
+<html>
+  import { type ReactNode } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ArrowDownRight, ArrowRight, ArrowUpRight, CalendarDays } from 'lucide-react';
 import { ErrorBoundary } from '@/components/error-boundary';
@@ -213,3 +214,4 @@ function App() {
 }
 
 export default App;
+</html>
