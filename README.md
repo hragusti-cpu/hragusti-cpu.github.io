@@ -1,4 +1,5 @@
 <html>
+  <link rel="stylesheet" href="css"
   import { type ReactNode } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ArrowDownRight, ArrowRight, ArrowUpRight, CalendarDays } from 'lucide-react';
