@@ -213,6 +213,6 @@ function App() {
     </QueryClientProvider>
   );
 }
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./style.css">
 export default App;
 </html>
